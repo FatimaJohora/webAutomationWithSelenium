@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T20:34:12 CET" name="Default suite" finished-at="2022-12-23T20:34:55 CET" duration-ms="43693">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunnerCamp.qa.DemoCampRunner@548a24a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-23T20:34:12 CET" name="Default test" finished-at="2022-12-23T20:34:55 CET" duration-ms="43693">
+      <class name="com.TestRunnerCamp.qa.DemoCampRunner">
+        <test-method is-config="true" signature="startURL()[pri:0, instance:com.TestRunnerCamp.qa.DemoCampRunner@548a24a]" started-at="2022-12-23T20:34:12 CET" name="startURL" finished-at="2022-12-23T20:34:20 CET" duration-ms="8414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.TestRunnerCamp.qa.DemoCampRunner@548a24a]" started-at="2022-12-23T20:34:20 CET" name="setUpClass" finished-at="2022-12-23T20:34:21 CET" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunnerCamp.qa.DemoCampRunner@548a24a]" started-at="2022-12-23T20:34:21 CET" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-12-23T20:34:55 CET" duration-ms="33707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is the DemoCamp Home header feature file]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunnerCamp.qa.DemoCampRunner@548a24a]" started-at="2022-12-23T20:34:55 CET" name="tearDownClass" finished-at="2022-12-23T20:34:55 CET" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closeURL()[pri:0, instance:com.TestRunnerCamp.qa.DemoCampRunner@548a24a]" started-at="2022-12-23T20:34:55 CET" name="closeURL" finished-at="2022-12-23T20:34:55 CET" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- com.TestRunnerCamp.qa.DemoCampRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
