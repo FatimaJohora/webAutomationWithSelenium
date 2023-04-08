@@ -6,7 +6,7 @@
       <class name="com.TestRunnerCamp.qa.DemoCampRunner">
         <methods>
           <include name="startURL"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature"/>
           <include name="setUpClass"/>
           <include name="closeURL"/>
           <include name="tearDownClass"/>
