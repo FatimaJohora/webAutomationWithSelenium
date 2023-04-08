@@ -5,9 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 
@@ -38,8 +40,9 @@ public class BaseCamp {
 		 String CampBrowserset = campprop.getProperty("Browser1");
 		 if(CampBrowserset.equals("Chrome")) {
 				
-				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\DriverCamp\\chromedriver.exe");
-				driver = new ChromeDriver();
+			 WebDriverManager.chromedriver().setup();	 
+			 driver = new ChromeDriver();
+				
 				driver.manage().window().maximize();
 				driver.manage().deleteAllCookies();
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestDataCamp.ImplicitlyWait));

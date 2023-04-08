@@ -12,10 +12,13 @@ StepDepCamp\DemoCamp_75.class
 com\LocatorCamp\qa\ProfilepageLocatorCamp.class
 com\LocatorCamp\qa\HomepageLocatorCamp.class
 com\LocatorCamp\qa\LoginpageLocatorCamp.class
+com\ActionsCamp\qa\ContactpageActionCamp.class
 com\LocatorCamp\qa\ContactpageLocatorCamp.class
 com\UtilityCamp\qa\ScreenshotsCamp.class
 com\UtilityCamp\qa\TestDataCamp.class
 com\ActionsCamp\qa\SignuppageActionCamp.class
 com\LocatorCamp\qa\AboutuspageLocatorCamp.class
 com\ActionsCamp\qa\CartpageActionCamp.class
+com\TestRunnerCamp\qa\DemoCampRunner.class
 com\LocatorCamp\qa\CartpageLocatorCamp.class
+StepDepCamp\DemoCamp_74.class
